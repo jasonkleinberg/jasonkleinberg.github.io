@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jason Kleinberg</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #FEFEF8;
+      color: #111;
+      font-family: 'Special Elite', 'Courier New', Courier, monospace;
+      line-height: 1.75;
+      padding: 0 1.5rem;
+    }
+
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 4rem 0 6rem;
+    }
+
+    /* ── HEADER ── */
+    .site-header {
+      text-align: center;
+      margin-bottom: 3.5rem;
+    }
+
+    .hero-drawing {
+      display: block;
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto 2rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: normal;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.4rem;
+    }
+
+    .tagline {
+      font-size: 0.9rem;
+      opacity: 0.5;
+      letter-spacing: 0.06em;
+    }
+
+    /* ── DIVIDER ── */
+    .divider {
+      text-align: center;
+      margin: 2.5rem 0;
+      letter-spacing: 0.5em;
+      color: #bbb;
+      font-size: 0.85rem;
+    }
+
+    /* ── SECTIONS ── */
+    section {
+      margin-bottom: 2.8rem;
+    }
+
+    h2 {
+      font-size: 0.78rem;
+      font-weight: normal;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      border-bottom: 1px solid #111;
+      padding-bottom: 0.4rem;
+      margin-bottom: 1.2rem;
+    }
+
+    p {
+      font-size: 0.93rem;
+      margin-bottom: 0.75rem;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    /* ── LINKS ── */
+    a {
+      color: #111;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
+    }
+
+    a:hover { opacity: 0.55; }
+
+    /* ── PROJECT BLOCK ── */
+    .project {
+      margin-bottom: 1.8rem;
+    }
+
+    .project-name {
+      font-size: 1.05rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .project-desc {
+      font-size: 0.88rem;
+      opacity: 0.75;
+      margin-bottom: 0.5rem;
+    }
+
+    .project-links {
+      font-size: 0.82rem;
+    }
+
+    .project-links a {
+      margin-right: 1.2rem;
+    }
+
+    /* ── NOW DATE ── */
+    .now-date {
+      display: block;
+      font-size: 0.78rem;
+      opacity: 0.4;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.9rem;
+    }
+
+    /* ── CONTACT ── */
+    .contact-list {
+      list-style: none;
+      font-size: 0.93rem;
+    }
+
+    .contact-list li {
+      margin-bottom: 0.55rem;
+    }
+
+    .contact-list .label {
+      opacity: 0.5;
+      letter-spacing: 0.06em;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      display: inline-block;
+      width: 80px;
+    }
+
+    /* ── INLINE DRAWING (radio) ── */
+    .inline-drawing {
+      display: block;
+      margin: 2.5rem auto;
+      opacity: 0.82;
+    }
+
+    /* ── FOOTER DRAWING ── */
+    .footer-drawing {
+      display: block;
+      width: 100%;
+      max-width: 520px;
+      margin: 4.5rem auto 0;
+      opacity: 0.8;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 480px) {
+      h1 { font-size: 1.7rem; }
+      .hero-drawing { max-width: 100%; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- ═══════════════════════════════════════════
+       HERO
+       ─ drawing: images/yay-characters.jpg
+  ══════════════════════════════════════════════ -->
+  <header class="site-header">
+    <img
+      class="hero-drawing"
+      src="images/Yay.jpg"
+      alt="YaY! — a gang of enthusiastic hand-drawn characters"
+    >
+    <h1>Jason Kleinberg</h1>
+    <p class="tagline">fiddler &nbsp;·&nbsp; teacher &nbsp;·&nbsp; occasional drawer of things</p>
+  </header>
+
+  <div class="divider">* * *</div>
+
+
+  <!-- ═══════════════════════════════════════════
+       NOW
+       ─ UPDATE THIS 1–2× per year.
+       ─ Change the date in .now-date and rewrite
+         the paragraphs below.
+  ══════════════════════════════════════════════ -->
+  <section id="now">
+    <h2>Now</h2>
+    <span class="now-date">Updated: May 2026</span>
+
+    <p>
+      Living in Michigan. Teaching fiddle to people all over the world through
+      <a href="https://fiddlehed.com/">FiddleHed</a>. Working on a fiddle technique
+      workbook called <em>Practice Playground</em>.
+    </p>
+    <p>
+      Doing lots of running these days. Not sure if I'm going towards or away from
+      something. It feels good most of the time.
+    </p>
+    <p>
+      Thinking a lot about what it means to unplug on purpose — and whether a good
+      tune is a reasonable substitute for a smartphone.
+    </p>
+  </section>
+
+  <div class="divider">* * *</div>
+
+
+  <!-- ═══════════════════════════════════════════
+       WORK
+  ══════════════════════════════════════════════ -->
+  <section id="work">
+    <h2>Work</h2>
+
+    <div class="project">
+      <p class="project-name">FiddleHed</p>
+      <p class="project-desc">
+        Online fiddle school for beginners and intermediate players. Lessons,
+        courses, workshops, and a community of people who just want to play music.
+      </p>
+      <p class="project-links">
+        <a href="https://fiddlehed.com" target="_blank" rel="noopener">fiddlehed.com</a>
+        <a href="https://www.youtube.com/@fiddlehed" target="_blank" rel="noopener">YouTube</a>
+      </p>
+    </div>
+
+    <!-- ADD MORE PROJECTS HERE when ready, e.g. Substack, Practice Playground, etc. -->
+
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       INLINE DRAWING — radio
+       ─ drawing: images/radio.jpg
+       ─ Remove the width/height if you want it bigger
+  ══════════════════════════════════════════════ -->
+  <img
+    class="inline-drawing"
+    src="images/drawing_It's Never Too Late To Start.jpg"
+    alt="It's Never Too Late to Start — fiddler drawing"
+    width="160"
+  >
+
+
+  <!-- ═══════════════════════════════════════════
+       CONTACT
+       ─ Email is assembled by JS below so bots
+         can't scrape it from the HTML source.
+       ─ Substack line is commented out — just
+         uncomment and fill in the URL when ready.
+  ══════════════════════════════════════════════ -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul class="contact-list">
+      <li>
+        <span class="label">email</span>
+        <a href="#" id="email-link">&nbsp;</a>
+      </li>
+      <li>
+        <span class="label">instagram</span>
+        <a href="https://www.instagram.com/fiddlehed/" target="_blank" rel="noopener">@fiddlehed</a>
+      </li>
+      <!--
+      <li>
+        <span class="label">substack</span>
+        <a href="https://YOUR-SUBSTACK.substack.com" target="_blank" rel="noopener">newsletter</a>
+      </li>
+      -->
+    </ul>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER DRAWING — landscape
+       ─ drawing: images/landscape.jpg
+       ─ (Ariano sketch, 2010)
+  ══════════════════════════════════════════════ -->
+  <img
+    class="footer-drawing"
+    src="images/Ariano_cropped.png"
+    alt="Pen and ink sketch of a hillside village — Ariano, 2010"
+  >
+
+</div><!-- /container -->
+
+
+<!-- ═══════════════════════════════════════════════
+     EMAIL OBFUSCATION
+     Assembles the email address at runtime so
+     spam bots crawling raw HTML don't see it.
+     Works without any third-party dependencies.
+════════════════════════════════════════════════ -->
+<script>
+  (function () {
+    var u = 'mr.jkleinberg';
+    var d = 'gmail' + '.com';
+    var link = document.getElementById('email-link');
+    if (link) {
+      link.href = 'mailto:' + u + '@' + d;
+      link.textContent = u + '@' + d;
+    }
+  })();
+</script>
+
+</body>
+</html>
